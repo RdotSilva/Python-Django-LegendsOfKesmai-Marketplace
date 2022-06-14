@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import PotionsView
 
 urlpatterns = [
-    path("", views.getPotions),
+    path("", PotionsView.as_view()),
 ]
