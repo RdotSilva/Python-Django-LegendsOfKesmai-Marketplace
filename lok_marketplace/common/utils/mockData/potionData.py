@@ -14,10 +14,17 @@ potionList = [
         "category": "potions",
     },
     {
-        "name":  "Permanent  Mana Potion",
+        "name": "Permanent  Mana Potion",
         "image": "item-00316.png",
         "slug": "permanentmanapotion",
         "id": "00316",
+        "category": "potions",
+    },
+    {
+        "name": "Wisdom Potion",
+        "image": "item-00318.png",
+        "slug": "wisdompotion",
+        "id": "00318",
         "category": "potions",
     },
 ]
