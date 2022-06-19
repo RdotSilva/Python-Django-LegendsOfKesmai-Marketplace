@@ -1,0 +1,35 @@
+[
+{
+    "model": "potions.potion",
+    "pk": 1,
+    "fields": {
+        "category": "potions",
+        "itemId": "00225",
+        "image": "item-00225.png",
+        "name": "Strength Potion",
+        "slug": "strengthpotion"
+    }
+},
+{
+    "model": "potions.potion",
+    "pk": 2,
+    "fields": {
+        "category": "potions",
+        "itemId": "00226",
+        "image": "item-00226.png",
+        "name": "Vigor Potion",
+        "slug": "vigorpotion"
+    }
+},
+{
+    "model": "potions.potion",
+    "pk": 3,
+    "fields": {
+        "category": "potions",
+        "itemId": "00227",
+        "image": "item-00227.png",
+        "name": "Cool Potion",
+        "slug": "coolpotion"
+    }
+}
+]
