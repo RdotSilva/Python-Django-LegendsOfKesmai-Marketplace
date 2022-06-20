@@ -23,3 +23,10 @@ class PotionsView(APIView):
         potion.delete()
 
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+    def update(self, request, *args, **kwargs):
+        potion = Potion.objects.get(id=id)
+        serializer = PotionSerializer(data=request.data)  # Serialize data from request
+        if serializer.is_valid():  # Check to ensure data is valid
+            serializer.save(id=potion.id)
+        return Response(serializer.data)
