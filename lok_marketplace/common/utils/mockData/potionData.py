@@ -34,4 +34,11 @@ potionList = [
         "id": "00319",
         "category": "potions",
     },
+    {
+        "name": "Stamina Potion",
+        "image": "item-00320.png",
+        "slug": "staminapotion",
+        "id": "00320",
+        "category": "potions",
+    },
 ]
