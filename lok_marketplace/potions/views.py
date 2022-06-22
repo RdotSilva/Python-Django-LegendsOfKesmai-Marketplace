@@ -18,7 +18,7 @@ class PotionsView(APIView):
         return Response(serializer.data)
 
     def delete(self, request, *args, **kwargs):
-        id = request.body.id
+        id = request.data["id"]
         potion = Potion.objects.get(id=id)
         potion.delete()
 
