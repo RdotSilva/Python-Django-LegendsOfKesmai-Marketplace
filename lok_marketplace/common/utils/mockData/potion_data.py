@@ -1,44 +1,44 @@
-potionList = [
+potion_list = [
     {
         "name": "Strength Potion",
         "image": "item-00225.png",
         "slug": "strengthpotion",
-        "id": "00225",
+        "itemId": "00225",
         "category": "potions",
     },
     {
         "name": "Dexterity Potion",
         "image": "item-00222.png",
         "slug": "dexteritypotion",
-        "id": "00222",
+        "itemId": "00222",
         "category": "potions",
     },
     {
         "name": "Permanent  Mana Potion",
         "image": "item-00316.png",
         "slug": "permanentmanapotion",
-        "id": "00316",
+        "itemId": "00316",
         "category": "potions",
     },
     {
         "name": "Wisdom Potion",
         "image": "item-00318.png",
         "slug": "wisdompotion",
-        "id": "00318",
+        "itemId": "00318",
         "category": "potions",
     },
     {
         "name": "Youth Potion",
         "image": "item-00319.png",
         "slug": "youthpotion",
-        "id": "00319",
+        "itemId": "00319",
         "category": "potions",
     },
     {
         "name": "Stamina Potion",
         "image": "item-00320.png",
         "slug": "staminapotion",
-        "id": "00320",
+        "itemId": "00320",
         "category": "potions",
     },
 ]

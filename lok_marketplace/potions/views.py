@@ -18,15 +18,25 @@ class PotionsView(APIView):
         return Response(serializer.data)
 
     def delete(self, request, *args, **kwargs):
-        id = request.body.id
+        id = request.data["id"]
         potion = Potion.objects.get(id=id)
         potion.delete()
 
         return Response(status=status.HTTP_204_NO_CONTENT)
 
-    def update(self, request, *args, **kwargs):
-        potion = Potion.objects.get(id=id)
-        serializer = PotionSerializer(data=request.data)  # Serialize data from request
-        if serializer.is_valid():  # Check to ensure data is valid
-            serializer.save(id=potion.id)
+    def put(self, request, *args, **kwargs):
+        data = request.data
+
+        # Fetch the potion using ID passed into request
+        potion = Potion.objects.get(id=data["id"])
+
+        # Update all potion data
+        potion.category = data["category"]
+        potion.itemId = data["itemId"]
+        potion.image = data["image"]
+        potion.name = data["name"]
+        potion.slug = data["slug"]
+        potion.save()
+
+        serializer = PotionSerializer(potion)
         return Response(serializer.data)
