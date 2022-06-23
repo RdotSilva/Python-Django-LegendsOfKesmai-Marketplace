@@ -1,6 +1,6 @@
 from django_seed import Seed
 from potions.models import Potion
-from potion_data import potion_list
+from common.utils.mockData.potion_data import potion_list
 
 seeder = Seed.seeder()
 

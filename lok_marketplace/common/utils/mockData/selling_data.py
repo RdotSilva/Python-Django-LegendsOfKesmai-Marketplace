@@ -1,4 +1,4 @@
-sellingList = [
+selling_list = [
     {
         "price": "10000",
         "slug": "strengthpotion",
@@ -10,7 +10,7 @@ sellingList = [
         "image": "item-00225.png",
     },
     {
-        "price":"50000",
+        "price": "50000",
         "slug": "manapotion",
         "id": "00226",
         "quantity": 1,
