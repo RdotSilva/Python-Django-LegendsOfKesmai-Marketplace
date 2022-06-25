@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "potions.apps.PotionsConfig",
     "rest_framework",
+    "django_seed",
 ]
 
 MIDDLEWARE = [
