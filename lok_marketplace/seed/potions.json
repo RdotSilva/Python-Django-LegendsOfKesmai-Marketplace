@@ -1,35 +1,35 @@
 [
-{
+  {
     "model": "potions.potion",
     "pk": 1,
     "fields": {
-        "category": "potions",
-        "itemId": "00225",
-        "image": "item-00225.png",
-        "name": "Strength Potion",
-        "slug": "strengthpotion"
+      "category": "potions",
+      "itemId": "00225",
+      "image": "item-00225.png",
+      "name": "Strength Potion",
+      "slug": "strengthpotion"
     }
-},
-{
+  },
+  {
     "model": "potions.potion",
     "pk": 2,
     "fields": {
-        "category": "potions",
-        "itemId": "00226",
-        "image": "item-00226.png",
-        "name": "Vigor Potion",
-        "slug": "vigorpotion"
+      "name": "Dexterity Potion",
+      "image": "item-00222.png",
+      "slug": "dexteritypotion",
+      "itemId": "00222",
+      "category": "potions"
     }
-},
-{
+  },
+  {
     "model": "potions.potion",
     "pk": 3,
     "fields": {
-        "category": "potions",
-        "itemId": "00227",
-        "image": "item-00227.png",
-        "name": "Cool Potion",
-        "slug": "coolpotion"
+      "name": "Permanent  Mana Potion",
+      "image": "item-00316.png",
+      "slug": "permanentmanapotion",
+      "itemId": "00316",
+      "category": "potions"
     }
-}
+  }
 ]
