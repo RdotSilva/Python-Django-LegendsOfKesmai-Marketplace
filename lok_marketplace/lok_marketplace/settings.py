@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "potions.apps.PotionsConfig",
+    "selling.apps.SellingConfig",
     "rest_framework",
     "django_seed",
 ]
