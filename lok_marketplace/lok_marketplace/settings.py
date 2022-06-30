@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "selling.apps.SellingConfig",
     "rest_framework",
     "django_seed",
+    "rest_framework_swagger",
 ]
 
 MIDDLEWARE = [
