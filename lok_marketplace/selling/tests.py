@@ -1,3 +1,5 @@
 from django.test import TestCase
+from .models import Selling
 
-# Create your tests here.
+class SellingTestCase(TestCase):
+    # TODO: Add test cases
