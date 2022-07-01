@@ -5,4 +5,6 @@ from rest_framework import status
 from selling.models import Selling
 from .serializers import SellingSerializer
 
-# TODO: Create SellingView class
+
+class SellingView(APIView):
+    #TODO: Add get request for all items for sale
