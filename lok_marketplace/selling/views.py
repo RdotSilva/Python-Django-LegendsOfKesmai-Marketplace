@@ -7,4 +7,7 @@ from .serializers import SellingSerializer
 
 
 class SellingView(APIView):
-    #TODO: Add get request for all items for sale
+    def get(self, request, format=None):
+        items_for_sale = Selling.objects.all()
+        serializer = SellingSerializer(items_for_sale, many=True)
+        return Response(serializer.data)
