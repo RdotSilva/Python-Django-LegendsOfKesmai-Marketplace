@@ -12,3 +12,14 @@ class Selling(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Sold(models.Model):
+    category = models.CharField(max_length=200)
+    itemId = models.CharField(max_length=200)
+    image = models.CharField(max_length=200)
+    name = models.CharField(max_length=200)
+    price = models.IntegerField(max_length=9)
+
+    def __str__(self):
+        return self.name
